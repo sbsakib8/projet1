@@ -1,0 +1,131 @@
+@media screen and (max-width:430px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        width: 100%;
+        background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .navbar{
+        width: 400px;
+        height: 40px;
+        margin: auto;
+    }
+    .icon{
+        width: 200px;
+        float: left;
+        height: 20px;
+    }
+    .logo{
+        color: #ff7200;
+        font-size: 25px;
+        font-family: Arial;
+        padding-left: 20px;
+        float: left;
+        padding-top: 0px;
+    }
+    .menu{
+        width: 400px;
+        height: 50px;
+        margin-left: -10px;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ul ,li{
+        list-style: none;
+        font-size: 14px;
+    }
+    ul ,li ,a{
+        text-decoration: none;
+        color: #fff;
+        margin-left: 11px;
+    }
+    .menu a:hover{
+        color: #ff7200;
+    }
+    .search{
+        width: 200px;
+        float: left;
+        margin-left: 100px;
+        position: absolute;
+        right: 0px;
+        top: -5px;
+    }
+    .srch{
+        font-family: 'Times New Roman';
+        width: 100px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid #ff7200;
+        margin-top: 13px;
+        color: #fff;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .content{
+        width: 400px;
+        height: auto;
+        /* margin: auto; */
+        color: #fff;
+        position: relative;
+    }
+    .content .par{
+        display: none;
+    }
+    .content .cn{
+        display: none;
+    }
+    .content h1{
+        font-family: 'Times New Roman';
+        font-size: 50px;
+        padding-left: 50px;
+        margin-top: 30%;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+  .content  span{
+        font-size: 50px;
+    }
+    .form{
+        width: 250px;
+        height: 380px;
+        background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%);
+        position: absolute;
+        top: 200px;
+        left: 50px;
+        border-radius: 10px;
+        padding: 25px;
+    }
+    .content .icon{ 
+        width: 300px;
+        height: 100px;
+        margin-left: -25px;
+        margin-top: 10px;
+    }
+    .icon i{
+        color: #fff;
+        font-size: 25px;
+        transition: 0.4s ease;
+    }
+    .ftr{
+        display: none;
+    }
+    .icon a{
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer ;
+    padding-left: 20px;
+    } 
+}
